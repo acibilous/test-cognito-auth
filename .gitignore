@@ -1,0 +1,8 @@
+~
+.nitro
+.output
+node_modules
+.env.*
+cdk.out
+.env
+packages/ci/.env

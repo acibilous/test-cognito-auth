@@ -1,0 +1,14 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                                DescribeStackEvents                                                                |
++----------------------------------+-------------------------------------------------+---------------------+----------------------------------------+
+|  2025-01-09T18:47:13.453000+00:00|  NitroAppServiceF92704AF                        |  CREATE_IN_PROGRESS |  Eventual consistency check initiated  |
+|  2025-01-09T18:47:12.602000+00:00|  NitroAppServiceF92704AF                        |  CREATE_IN_PROGRESS |  Resource creation Initiated           |
+|  2025-01-09T18:47:10.633000+00:00|  NitroAppServiceF92704AF                        |  CREATE_IN_PROGRESS |  None                                  |
+|  2025-01-09T18:47:10.053000+00:00|  NitroAppServiceLBPublicListener9EC807DA        |  CREATE_COMPLETE    |  None                                  |
+|  2025-01-09T18:47:09.768000+00:00|  NitroAppServiceLBPublicListener9EC807DA        |  CREATE_IN_PROGRESS |  Resource creation Initiated           |
+|  2025-01-09T18:47:08.791000+00:00|  NitroAppServiceLBPublicListener9EC807DA        |  CREATE_IN_PROGRESS |  None                                  |
+|  2025-01-09T18:47:08.267000+00:00|  NitroAppServiceLB1EF124D3                      |  CREATE_COMPLETE    |  None                                  |
+|  2025-01-09T18:46:55.251000+00:00|  AuroraDatabasewriter392BA2E3                   |  CREATE_IN_PROGRESS |  Resource creation Initiated           |
+|  2025-01-09T18:46:52.928000+00:00|  AuroraDatabasewriter392BA2E3                   |  CREATE_IN_PROGRESS |  None                                  |
+|  2025-01-09T18:46:52.398000+00:00|  NitroAppVpcPrivateSubnet2DefaultRoute0F53BF83  |  CREATE_COMPLETE    |  None                                  |
++----------------------------------+-------------------------------------------------+---------------------+----------------------------------------+

@@ -1,0 +1,76 @@
+{
+    "TargetHealthDescriptions": [
+        {
+            "Target": {
+                "Id": "10.0.244.255",
+                "Port": 3000,
+                "AvailabilityZone": "eu-north-1b"
+            },
+            "HealthCheckPort": "3000",
+            "TargetHealth": {
+                "State": "unhealthy",
+                "Reason": "Target.FailedHealthChecks",
+                "Description": "Health checks failed"
+            },
+            "AdministrativeOverride": {
+                "State": "no_override",
+                "Reason": "AdministrativeOverride.NoOverride",
+                "Description": "No override is currently active on target"
+            }
+        },
+        {
+            "Target": {
+                "Id": "10.0.222.217",
+                "Port": 3000,
+                "AvailabilityZone": "eu-north-1b"
+            },
+            "HealthCheckPort": "3000",
+            "TargetHealth": {
+                "State": "unhealthy",
+                "Reason": "Target.FailedHealthChecks",
+                "Description": "Health checks failed"
+            },
+            "AdministrativeOverride": {
+                "State": "no_override",
+                "Reason": "AdministrativeOverride.NoOverride",
+                "Description": "No override is currently active on target"
+            }
+        },
+        {
+            "Target": {
+                "Id": "10.0.190.116",
+                "Port": 3000,
+                "AvailabilityZone": "eu-north-1a"
+            },
+            "HealthCheckPort": "3000",
+            "TargetHealth": {
+                "State": "unhealthy",
+                "Reason": "Target.FailedHealthChecks",
+                "Description": "Health checks failed"
+            },
+            "AdministrativeOverride": {
+                "State": "no_override",
+                "Reason": "AdministrativeOverride.NoOverride",
+                "Description": "No override is currently active on target"
+            }
+        },
+        {
+            "Target": {
+                "Id": "10.0.131.229",
+                "Port": 3000,
+                "AvailabilityZone": "eu-north-1a"
+            },
+            "HealthCheckPort": "3000",
+            "TargetHealth": {
+                "State": "draining",
+                "Reason": "Target.DeregistrationInProgress",
+                "Description": "Target deregistration is in progress"
+            },
+            "AdministrativeOverride": {
+                "State": "no_override",
+                "Reason": "AdministrativeOverride.NoOverride",
+                "Description": "No override is currently active on target"
+            }
+        }
+    ]
+}

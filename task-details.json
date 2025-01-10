@@ -1,0 +1,28 @@
+[
+    {
+        "taskArn": "arn:aws:ecs:eu-north-1:231943311404:task/nitro-app-cluster/38f7ada136da45069b153e304f11a3d5",
+        "lastStatus": "STOPPED",
+        "stoppedReason": "ResourceInitializationError: unable to pull secrets or registry auth: execution resource retrieval failed: unable to retrieve secret from asm: service call has been retried 1 time(s): secrets manager: failed to retrieve secret from arn:aws:secretsmanager:eu-north-1:231943311404:secret:NitroAppStackAuroraDatabase-ZgWiTDNikHVD-kX99Fy:postgresql://${username}:${password}@${host}:${port}/${dbname}::: unexpected ARN format with parameters when trying to retrieve ASM secret",
+        "containers": [
+            {
+                "name": "web",
+                "lastStatus": "STOPPED",
+                "reason": null,
+                "exitCode": null
+            }
+        ]
+    },
+    {
+        "taskArn": "arn:aws:ecs:eu-north-1:231943311404:task/nitro-app-cluster/39f62335aec44f2abffbc8cb918d8c2e",
+        "lastStatus": "STOPPED",
+        "stoppedReason": "ResourceInitializationError: unable to pull secrets or registry auth: execution resource retrieval failed: unable to retrieve secret from asm: service call has been retried 1 time(s): secrets manager: failed to retrieve secret from arn:aws:secretsmanager:eu-north-1:231943311404:secret:NitroAppStackAuroraDatabase-ZgWiTDNikHVD-kX99Fy:postgresql://${username}:${password}@${host}:${port}/${dbname}::: unexpected ARN format with parameters when trying to retrieve ASM secret",
+        "containers": [
+            {
+                "name": "web",
+                "lastStatus": "STOPPED",
+                "reason": null,
+                "exitCode": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "test-cognito-auth",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=nitro-app",
+    "dev": "npm run dev --workspace=nitro-app",
+    "cdk:deploy": "npm run cdk:deploy --workspace=ci",
+    "cdk:destroy": "npm run cdk:destroy --workspace=ci",
+    "cdk:bootstrap": "npm run cdk:bootstrap --workspace=ci"
+  }
+}

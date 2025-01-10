@@ -1,0 +1,27 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cdk": "cdk",
+    "cdk:bootstrap": "cdk bootstrap",
+    "cdk:deploy": "cdk deploy",
+    "cdk:destroy": "cdk destroy",
+    "cleanup": "bash scripts/cleanup.sh",
+    "deploy": "bash scripts/deploy.sh",
+    "build": "bash scripts/build.sh",
+    "logs": "bash scripts/logs.sh",
+    "get-creds": "bash scripts/get-credentials.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "aws-cdk": "^2.115.0",
+    "aws-cdk-lib": "^2.115.0",
+    "constructs": "^10.3.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.0"
+  }
+}

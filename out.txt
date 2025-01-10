@@ -1,0 +1,32 @@
+{
+    "status": "ACTIVE",
+    "desiredCount": 2,
+    "runningCount": 0,
+    "events": [
+        {
+            "id": "cbf1df2c-ca17-4e22-a361-c0cda1045b8d",
+            "createdAt": "2025-01-09T20:02:14.705000+02:00",
+            "message": "(service NitroAppStack-NitroAppServiceF92704AF-ebLo77U7L9nN) has started 2 tasks: (task 38f7ada136da45069b153e304f11a3d5) (task 39f62335aec44f2abffbc8cb918d8c2e)."
+        },
+        {
+            "id": "8fa09f66-8079-43f7-89d2-41aed0f8c271",
+            "createdAt": "2025-01-09T20:01:14.308000+02:00",
+            "message": "(service NitroAppStack-NitroAppServiceF92704AF-ebLo77U7L9nN) has started 2 tasks: (task 13448d9fbbaa46058e52e22cbc9a53f0) (task 26796487e1f846c5a8bad18c36fdb961)."
+        },
+        {
+            "id": "c4c499fa-6946-4d97-a1bb-00044c6939ea",
+            "createdAt": "2025-01-09T20:00:14.908000+02:00",
+            "message": "(service NitroAppStack-NitroAppServiceF92704AF-ebLo77U7L9nN) has started 2 tasks: (task 5bb11f16d6444b459a532fd99b5d473c) (task 9056cf96e8174488bc99a8537bd167ae)."
+        },
+        {
+            "id": "7300b9ee-62d0-47f5-acf0-a3b308d8c0ce",
+            "createdAt": "2025-01-09T19:59:13.258000+02:00",
+            "message": "(service NitroAppStack-NitroAppServiceF92704AF-ebLo77U7L9nN) has started 2 tasks: (task 0c11102598b6456e8bfc5c6420cea911) (task ee56ad470fb54f04a807e33fceb1ac36)."
+        },
+        {
+            "id": "a504b61e-ccad-4760-9bcd-9f333dba551e",
+            "createdAt": "2025-01-09T19:58:12.949000+02:00",
+            "message": "(service NitroAppStack-NitroAppServiceF92704AF-ebLo77U7L9nN) has started 2 tasks: (task aa8ae72dfa28476abe02309928e9ef3a) (task ee4ec1e934d04972a28aa60cf972e1d2)."
+        }
+    ]
+}
